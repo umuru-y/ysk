@@ -1,3 +1,62 @@
-<h1>Abouts#help</h1>
-<p>Find me in app/views/abouts/help.html.erb</p>
-<h1>abouts</h1>
+<style type="text/css">
+#google_help {
+    margin:0 0 1em 0; padding:0;
+}
+#google_help a {
+    color:blue;
+}
+
+.ribbon {
+    display: inline-block;
+    position: relative;
+    height: 60px;
+    line-height: 60px;
+    vertical-align: middle;
+    text-align: center;
+    padding: 7px 0;
+    font-size: 18px;/*文字サイズ*/ background: #7f9dfb;/*背景色*/ color: #FFF;/*文字色*/ box-sizing: border-box;
+}
+
+.ribbon h1 {
+    vertical-align: middle;
+    margin: 0;
+    padding: 0 30px 0 15px;
+    border-top: dashed 1px #FFF;
+    border-bottom: dashed 1px #FFF;
+    line-height: 46px;
+}
+
+.ribbon:after{
+    position: absolute;
+    content: '';
+    z-index: 1;
+    top: 0;
+    right: 0;
+    width: 0px;
+    height: 0px;
+    border-width: 30px 15px 30px 0px;
+    border-color: transparent #fff transparent transparent;
+    border-style: solid;
+}
+
+</style>
+
+<div class="ribbon">
+<h1>tosaka help page</h1>
+</div>
+
+    <div align="center"><span>〜tosakaの使い方〜</span></div>
+    <div class="cf">
+        <ul>
+            <li>宿リスト</li>
+            <a>ここで宿のリストを見ることができます。</a>
+        </ul>
+        <ul>
+            <li>宿検索</li>         
+	    <a>宿を検索できます。</a>  
+        </ul>
+        <ul>
+            <li>宿予約</li>
+	　　　　<a>宿の予約ができます。</a>            
+        </ul>
+</div>
